@@ -22,7 +22,6 @@ steps:
     command: 'restore'
     restoreSolution: '**/*.sln'
     feedsToUse: 'config'
-    nugetConfigPath: '**/Nuget.config'
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
