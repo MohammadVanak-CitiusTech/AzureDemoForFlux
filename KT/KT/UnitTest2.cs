@@ -13,7 +13,7 @@ namespace KT
             Amazon.AmazonSearch("Legend Of Zelda");
             //Assert.AreEqual(pagetitle, "Legend Of Zelda");
             Amazon.Actions.CloseBrowser();
-            Assert.Pass();//Instead of this use above assert.
+            Assert.Pass();//Instead of this use above
         }
     }
 }

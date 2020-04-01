@@ -22,4 +22,10 @@
     <Folder Include="TestScripts\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="TEST-Res.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
