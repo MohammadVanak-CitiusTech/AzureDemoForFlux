@@ -41,16 +41,16 @@ namespace KT.PageObject
                 Actions.AcceptAlert();
             }
 
-            for (int it = 0; it <= 19;  it++ )
+            for (int it = 0; it <= 10;  it++ )
             {
                 Actions.ScrollToBottom();
                 Actions.Click(_lnkNext);
                 Waits.WaitForPageLoad();
             }
 
-            Actions.ScrollToBottom();
-            Actions.Click(_lnk25thResult);
-            Waits.WaitForPageLoad();
+            //Actions.ScrollToBottom();
+            //Actions.Click(_lnk25thResult);
+            //Waits.WaitForPageLoad();
         }
     }
 }
