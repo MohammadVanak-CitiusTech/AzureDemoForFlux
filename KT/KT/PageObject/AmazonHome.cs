@@ -39,13 +39,13 @@ namespace KT.PageObject
             Actions.Click(_btnSearch);
             Waits.WaitForPageLoad();
 
-            Actions.Click(_lnkLOZ);
-            Waits.WaitForPageLoad();
+            //Actions.Click(_lnkLOZ);
+            //Waits.WaitForPageLoad();
 
-            Actions.Click(_btnAddtoCart);
-            Waits.Equals(3000);
+            //Actions.Click(_btnAddtoCart);
+            //Waits.Equals(3000);
 
-            Actions.Click(_btnConttoCart);
+            //Actions.Click(_btnConttoCart);
         }
     }
 }

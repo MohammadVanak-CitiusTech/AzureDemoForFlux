@@ -7,7 +7,7 @@ namespace KT
     {
         [Test]
         [Category("smoke")]
-        public void AmazonSearcgh()
+        public void AmazonSearch()
         {
             var Amazon = Application.NewPage<AmazonHome>();
             Amazon.AmazonSearch("Legend Of Zelda");
