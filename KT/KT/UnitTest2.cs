@@ -11,6 +11,7 @@ namespace KT
         {
             var Amazon = Application.NewPage<AmazonHome>();
             Amazon.AmazonSearch("Legend Of Zelda");
+            Amazon.TakeScreenShot();
             //Assert.AreEqual(pagetitle, "Legend Of Zelda");
             Amazon.Actions.CloseBrowser();
             Assert.Pass();//Instead of this use above
