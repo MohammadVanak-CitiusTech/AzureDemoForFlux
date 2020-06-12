@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Text;
+using System.Windows.Forms;
 
 namespace KT
 {
@@ -59,6 +60,9 @@ namespace KT
                             break;
                     }
                 }
+                System.Drawing.Size s = new System.Drawing.Size();
+                s=SystemInformation.PrimaryMonitorSize;
+                DriverManager.Driver.Manage().Window.Size = s;
             }
             catch (Exception e)
             {
